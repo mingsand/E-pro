@@ -9,7 +9,10 @@
   "commands": {
     "toggle-fullscreen": {
       "suggested_key": {
-        "default": "Shift+Z"
+        "windows": "Ctrl+Shift+Z",
+        "mac": "Command+Shift+Z",
+        "chromeos": "Ctrl+Shift+Z",
+        "linux": "Ctrl+Shift+Z"
       },
       "description": "엔트리 작품 실행창 웹페이지 전체화면"
     }
