@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "E-Pro",
+  "version": "1.0",
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "toggle-fullscreen": {
+      "suggested_key": {
+        "default": "Shift+Z"
+      },
+      "description": "엔트리 작품 실행창 웹페이지 전체화면"
+    }
+  }
+}
